@@ -72,9 +72,11 @@ console.log(` O e-mail  ${email} foi cadastrado com suceso. Seja bem vinda(o), $
     
 
 
-const userFood = prompt("Qual Sua Comida preferida")
+
+
 
 const favoriteFood = ['açai', 'pizza', 'parmejiana', 'sorvete', 'uva']
+
 
 
 console.log(`Essas São minhas comidas preferidas: `)
@@ -84,12 +86,53 @@ console.log(favoriteFood[2])
 console.log(favoriteFood[3])
 console.log(favoriteFood[4])
 
+
+
+const userFood = prompt("Qual Sua Comida preferida")
+favoriteFood[1] = userFood
+console.log(favoriteFood)
+
+
+
+
+
+3. Faça um programa, seguindo os passos:
+
+    a) Crie um array vazio e guarde-o em uma variável, chamada `listaDeTarefas`
+
+    b) Pergunte ao usuário 3 tarefas que ele precise realizar no dia e armazene-as, uma por uma, no array
+
+    c) Imprima o array na tela
+
+    d) Peça ao usuário que digite o **índice** de uma tarefa que ele já realizou: 0, 1 ou 2 
+
+    e) Remova da lista o item de índice que o usuário escolheu.
+
+    f) Imprima o array na tela
+
+
+
+
+
+
+const listaDeTarefas = []
+
+const primeira = prompt(`Primeira Tarefa : `)
+const segunda = prompt(`Segunda Tarefa : `)
+const Terceira = prompt(`Terceira Tarefa : `)
+
+listaDeTarefas.push(primeira)
+listaDeTarefas.push(segunda)
+listaDeTarefas.push(Terceira)
+
+console.log(listaDeTarefas)
+
+const tarefaRealizada = prompt("Digite tal tarefa")
+listaDeTarefas.splice(Number(tarefaRealizada),1)
+
+console.log(listaDeTarefas)
+
 */ 
-
-
-
-
-
 
 
 
