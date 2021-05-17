@@ -134,6 +134,15 @@ return (secondLargestNumber)
 function ordenaArray(array) {
    // implemente sua lógica aqui
 
+   array.sort((a,b) => a-b)
+      return array
+
+   
+
+
+   
+
+
 
 }
 
