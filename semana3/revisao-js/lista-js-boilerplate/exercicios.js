@@ -16,11 +16,10 @@ return reverseArray
 function retornaNumerosParesElevadosADois (array) {
    // implemente sua lógica aqui
 
-
-
+const parNumbers = array.filter(array => array %2 === 0) 
+  
 
 }
-
 
 
 //Exercício 3
@@ -64,6 +63,9 @@ function retornaQuantidadeElementos (array) {
 function retornaExpressoesBooleanas() {
    // implemente sua lógica aqui
 
+   const repostas = [false, false, true, true, true]
+   return repostas
+
 
 }
 
@@ -103,21 +105,36 @@ function comparaDoisNumeros(num1, num2) {
    // implemente sua lógica aqui
 
 
-
-
-
+   
 }
+
+
 
 // Exercício 10
 
 function segundoMaiorEMenor(array) {
    // implemente sua lógica aqui
+
+largestNumber = Math.max(...array)
+index = array.indexOf(largestNumber)
+array.splice(index,1)
+secondLargestNumber = Math.max(...array)
+
+return (secondLargestNumber)
+
+
+
+
+
 }
+
 
 //Exercício 11
 
 function ordenaArray(array) {
    // implemente sua lógica aqui
+
+
 }
 
 // Exercício 12
