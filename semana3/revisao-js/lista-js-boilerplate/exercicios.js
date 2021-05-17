@@ -80,7 +80,17 @@ function retornaNNumerosPares(n) {
 function checaTriangulo(a, b, c) {
   // implemente sua lógica aqui
 
+ if (a == b && a == c) {
+    return (`Equilátero`);
+ 
+ }else if (a == b || a == c || b == c) {
+  return  (`Isósceles`)
 
+   }else {
+   return   (`Escaleno`)
+
+
+   }
  
 
 
