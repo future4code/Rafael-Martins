@@ -28,7 +28,7 @@ function retornaNumerosParesElevadosADois (array) {
 function retornaNumerosPares (array) {
    // implemente sua lógica aqui
 
-  
+   return array.filter (x => x  %2 === 0 ) 
 
 
 }
@@ -47,6 +47,7 @@ function retornaMaiorNumero(array) {
 function retornaQuantidadeElementos (array) {
    // implemente sua lógica aqui
 
+   
 }
 
 //Exercício 6
