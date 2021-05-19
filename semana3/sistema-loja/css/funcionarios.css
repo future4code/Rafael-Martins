@@ -1,0 +1,86 @@
+*{
+
+    padding: 0%;
+    margin: 0%;
+    
+    
+    
+    }
+    
+    
+    .cabeçalho {
+    
+        font-size: 20px;
+    
+        background-color: black;
+        height: 50px;
+        text-align: center;
+        padding-top: 08px;
+        padding-bottom: 20px;
+    }
+    
+    #paginaInicial {
+    
+        padding-right: 700px;
+    
+    
+    }
+    
+    
+    #controleDeEstoque {
+    
+        padding-right: 30px;
+    
+    
+    
+    }
+    
+    #addProdutos {
+    
+    
+        padding-right: 10px;
+    
+    
+    
+    }
+    
+    #funcionarios {
+        padding-left: 20px;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    
+    
+    
+    form{
+    
+    text-align: center;
+    font-size: 20px;
+    padding-top: 200px;
+    
+    }
+    
+    
+    h2{
+    
+        text-align: center;
+        padding-top: 20px;
+        font-size: 50px;
+        color: black;
+    
+    
+    
+    }
+
+
+    ol{
+        text-align: center;
+        padding-top: 100px;
+        font-size: 30px;
+        
+
+    }
