@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Reggae+One&display=swap');
+
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.max-width{
+
+    max-width: 1750px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+/* Estilos Da Barra De Navegação */
+
+.barra-de-navegação{
+
+position: fixed;
+padding: 15px 0;
+width: 100%;
+z-index: 999;
+font-family: 'Reggae One', cursive;
+transition: all 0,3 ease;
+
+}
+
+.navbar.sticky{
+    padding: 15px 0;
+    
+}
+
+.barra-de-navegação .max-width{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.barra-de-navegação .logo a{
+    color: orange;
+    font-size: 39px;    
+    font-weight: 400;    
+
+}
+.barra-de-navegação .logo a span{
+
+    color: black
+
+}
+
+
+.barra-de-navegação .menu li{
+list-style: none;
+display: inline-block;
+
+}
+
+.barra-de-navegação .menu li a{
+    color: orange;
+    font-size: 20px;
+    font-weight:  500px;
+    margin-left: 30px;
+    transition: color 0.3s ease;
+}
+.barra-de-navegação .menu li a:hover{
+
+    color: black;
+
+}
+
+
+/* Estilos Da Pagina Inicial*/
+.home{
+    display: flex;
+    background: url(frontend_webdeveloper.png) no-repeat , center;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: 'Reggae One', cursive;
+}
+
+.home .max-width{
+margin: auto 0 auto 60px;
+    
+}
+
+.home .conteudo-home .texto-um{
+font-size: 29px;
+
+
+}
+
+.home .conteudo-home .texto-dois{
+    font-size: 65px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .conteudo-home .texto-três{
+    font-size: 25px;
+    margin: 5px 0;
+    
+}
+
+.home .conteudo-home .texto-três span{
+color: black;
+font-weight: 400;
+}
+
+/* sobre-mim estilo */
+section{
+    padding: 100px  0;
+
+}
+
+.sobre-mim, .conteudoSkills {
+    font-family: 'Reggae One', cursive;
+    background-color: white;
+}
+
+.sobre-mim .titulo{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Reggae One', cursive;
+
+}
+.sobre-mim .titulo::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 259px;
+    height: 0px;
+    background: white;
+    transform: translateX(-50%);
+    
+}
+.sobre-mim .titulo::before{
+    content: "Quem eu sou ?";
+    position: absolute;
+    bottom: -180px;
+    left: 50%;
+    font-size: 20px;
+    color: brown;
+    padding: 5px;
+
+
+}
+
+.sobre-mim .conteudo-sobreMim .colunas img{
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.sobre-mim .conteudo-sobreMim, .skils .conteudoSkills {
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+.sobre-mim .conteudo-sobreMim .colunas{
+    width: 15%;
+
+}
+
+.sobre-mim .conteudo-sobreMim .segundaColuna{
+    width: 55%;
+
+}
+
+.sobre-mim .conteudo-sobreMim .segundaColuna .text{
+font-size: 25px;
+font-weight: 600;
+margin-bottom: 10px;
+
+}
+
+
+
+/* skils */
+section{
+    padding: 100px  0;
+
+}
+
+.skils{
+    
+    font-family: 'Reggae One', cursive;
+
+}
+
+.skils .MinhasSkils{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    font-family: 'Reggae One', cursive;
+
+}
+
+    
+
+
+.skils .MinhasSkils{
+text-align: left;
+
+
+}
+
+
+#habilidades{
+display: flex;
+position: relative;
+left: -70px;
+width: 550px;
+height: 300px;
+
+}
+
+
+
+
+
+
+
+
+    
+
+
