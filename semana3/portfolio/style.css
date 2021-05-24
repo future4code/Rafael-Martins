@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+}
+.max-width{
+
+    max-width: 1750px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+/* Estilos Da Barra De Navegação */
+
+.barra-de-navegação{
+
+position: fixed;
+padding: 15px 0;
+width: 100%;
+z-index: 999;
+font-family: 'Reggae One', cursive;
+transition: all 0,3 ease;
+background: black;
+
+}
+
+.navbar.sticky{
+    padding: 15px 0;
+    
+}
+
+.barra-de-navegação .max-width{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.barra-de-navegação .logo a{
+    color: white;
+    font-size: 39px;    
+    font-weight: 400;    
+
+}
+.barra-de-navegação .logo a span{
+
+    color: blue;
+
+}
+
+
+.barra-de-navegação .menu li{
+list-style: none;
+display: inline-block;
+
+}
+
+.barra-de-navegação .menu li a{
+    color: white;
+    font-size: 20px;
+    font-weight:  500px;
+    margin-left: 30px;
+    transition: color 0.3s ease;
+}
+.barra-de-navegação .menu li a:hover{
+
+    color: blue;
+
+}
+
+
+/* Estilos Da Pagina Inicial*/
+.home{
+    display: flex;
+    background: url(frontend_webdeveloper.png) no-repeat , center;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: 'Reggae One', cursive;
+}
+
+.home .max-width{
+margin: auto 0 auto 60px;
+    
+}
+
+.home .conteudo-home .texto-um{
+font-size: 29px;
+
+
+}
+
+.home .conteudo-home .texto-dois{
+    font-size: 65px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .conteudo-home .texto-três{
+    font-size: 25px;
+    margin: 5px 0;
+    
+}
+
+.home .conteudo-home .texto-três span{
+color: white;
+font-weight: 400;
+}
+
+/* sobre-mim estilo */
+section{
+    padding: 100px  0;
+
+}
+
+.sobre-mim{
+    font-family: 'Reggae One', cursive;
+    background-color: white;
+}
+
+.sobre-mim .titulo{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Reggae One', cursive;
+
+}
+.sobre-mim .titulo::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 259px;
+    height: 0px;
+    background: white;
+    transform: translateX(-50%);
+    
+}
+.sobre-mim .titulo::before{
+    content: "Quem Somos ?";
+    position: absolute;
+    bottom: -180px;
+    left: 50%;
+    font-size: 20px;
+    color: brown;
+    padding: 5px;
+
+
+}
+
+.sobre-mim .conteudo-sobreMim .colunas img{
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.sobre-mim .conteudo-sobreMim, .skils .conteudoSkills {
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+.sobre-mim .conteudo-sobreMim .colunas{
+    width: 15%;
+
+}
+
+.sobre-mim .conteudo-sobreMim .segundaColuna{
+    width: 55%;
+
+}
+
+.sobre-mim .conteudo-sobreMim .segundaColuna .text{
+font-size: 25px;
+font-weight: 600;
+margin-bottom: 10px;
+
+}
+
+
+
+/* times styles */
+
+.team-section {
+
+    overflow: hidden;
+    text-align: center;
+    background: black;
+    padding: 60px;
+    
+}
+  
+.team-section h1{
+text-transform: uppercase;
+margin-bottom: 60px;
+color: white;
+font-size: 30px;
+
+}
+ 
+
+img{
+    height: 160px;
+    width: 160px;
+
+}
+
+.border{
+display: block;
+margin: auto;
+width: 160px;
+height: 3px;
+background: crimson;
+margin-bottom: 40px;
+}
+
+.ps{
+margin-bottom: 40px;
+
+}
+
+.ps a{
+display: inline-block;
+margin: 0 30px;
+width: 160px;
+height: 160px;
+overflow: hidden;
+border-radius: 50%;
+}
+
+.ps a img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4 all;
+}
+
+.ps a:hover > img{
+filter : none;
+
+}
+
+.section{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+}
+
+.section:target{
+    height: auto;
+}
+
+.name{
+display: block;
+margin-bottom: 30px;
+text-align: center;
+text-transform: uppercase;
+font-size: 22px;
+}
+
+
+/* skils style */
+
+
+/* .skils{
+    background: grey;
+    list-style: none;
+    width: 600px;
+    margin: 60px auto;
+    color: white;
+}
+
+.skils li{
+
+    margin: 20px 0;
+
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+
+.html{
+    width: 30%;
+    animation: html 2s;
+}
+
+.css{
+    width:30%;
+}
+
+.js{
+    width: 30%;
+}
+
+.react{
+    width: 30%;
+} */
+
+    
+
+
