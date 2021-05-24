@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 *{
 
@@ -6,7 +6,7 @@
     padding: 0%;
     box-sizing: border-box;
     text-decoration: none;
-
+    font-family: 'Righteous', cursive;
 }
 .max-width{
 
@@ -26,6 +26,7 @@ width: 100%;
 z-index: 999;
 font-family: 'Reggae One', cursive;
 transition: all 0,3 ease;
+background: black;
 
 }
 
@@ -42,14 +43,14 @@ justify-content: space-between;
 
 
 .barra-de-navegação .logo a{
-    color: orange;
+    color: white;
     font-size: 39px;    
     font-weight: 400;    
 
 }
 .barra-de-navegação .logo a span{
 
-    color: black
+    color: blue;
 
 }
 
@@ -61,7 +62,7 @@ display: inline-block;
 }
 
 .barra-de-navegação .menu li a{
-    color: orange;
+    color: white;
     font-size: 20px;
     font-weight:  500px;
     margin-left: 30px;
@@ -69,7 +70,7 @@ display: inline-block;
 }
 .barra-de-navegação .menu li a:hover{
 
-    color: black;
+    color: blue;
 
 }
 
@@ -108,7 +109,7 @@ font-size: 29px;
 }
 
 .home .conteudo-home .texto-três span{
-color: black;
+color: white;
 font-weight: 400;
 }
 
@@ -118,7 +119,7 @@ section{
 
 }
 
-.sobre-mim, .conteudoSkills {
+.sobre-mim{
     font-family: 'Reggae One', cursive;
     background-color: white;
 }
@@ -143,7 +144,7 @@ section{
     
 }
 .sobre-mim .titulo::before{
-    content: "Quem eu sou ?";
+    content: "Quem Somos ?";
     position: absolute;
     bottom: -180px;
     left: 50%;
@@ -188,53 +189,138 @@ margin-bottom: 10px;
 
 
 
-/* skils */
-section{
-    padding: 100px  0;
+/* times styles */
 
-}
+.team-section {
 
-.skils{
-    
-    font-family: 'Reggae One', cursive;
-
-}
-
-.skils .MinhasSkils{
+    overflow: hidden;
     text-align: center;
-    font-size: 40px;
-    font-weight: 500;
-    margin-bottom: 50px;
-    padding-bottom: 20px;
-    font-family: 'Reggae One', cursive;
-
-}
-
+    background: black;
+    padding: 60px;
     
+}
+  
+.team-section h1{
+text-transform: uppercase;
+margin-bottom: 60px;
+color: white;
+font-size: 30px;
 
+}
+ 
 
-.skils .MinhasSkils{
-text-align: left;
-
+img{
+    height: 160px;
+    width: 160px;
 
 }
 
+.border{
+display: block;
+margin: auto;
+width: 160px;
+height: 3px;
+background: crimson;
+margin-bottom: 40px;
+}
 
-#habilidades{
-display: flex;
-position: relative;
-left: -70px;
-width: 550px;
-height: 300px;
+.ps{
+margin-bottom: 40px;
 
 }
 
+.ps a{
+display: inline-block;
+margin: 0 30px;
+width: 160px;
+height: 160px;
+overflow: hidden;
+border-radius: 50%;
+}
+
+.ps a img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4 all;
+}
+
+.ps a:hover > img{
+filter : none;
+
+}
+
+.section{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+}
+
+.section:target{
+    height: auto;
+}
+
+.name{
+display: block;
+margin-bottom: 30px;
+text-align: center;
+text-transform: uppercase;
+font-size: 22px;
+}
 
 
+/* skils style */
 
 
+/* .skils{
+    background: grey;
+    list-style: none;
+    width: 600px;
+    margin: 60px auto;
+    color: white;
+}
 
+.skils li{
 
+    margin: 20px 0;
+
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+
+.html{
+    width: 30%;
+    animation: html 2s;
+}
+
+.css{
+    width:30%;
+}
+
+.js{
+    width: 30%;
+}
+
+.react{
+    width: 30%;
+} */
 
     
 
