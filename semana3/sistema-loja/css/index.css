@@ -1,0 +1,116 @@
+*{
+
+padding: 0%;
+margin: 0%;
+
+
+}
+
+
+
+body{
+
+    
+    width: 100%;
+    height: 100%;
+
+
+}
+
+a{
+color: white;
+text-decoration: none;
+
+
+}
+
+
+
+
+
+
+.cabeçalho{
+    
+    font-size: 20px;
+    
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+#paginaInicial{
+
+padding-right: 700px;
+
+
+}
+
+
+#controleDeEstoque {
+
+padding-right: 30px;
+
+
+
+}
+
+#addProdutos{
+
+
+padding-right: 10px;
+
+
+
+}
+
+    
+#funcionarios{
+
+padding-left: 20px;
+
+    
+}
+
+
+
+
+
+
+#background{
+
+background-image: url(./images/Image\ 4@1x.png);
+padding: 340px;
+background-size: 1950px;
+
+
+
+}
+
+
+#titulo{
+
+font-size: 100px;
+  
+
+}
+
+img{
+
+height: 30px;
+padding-top: 20px;
+padding-left: 107px;
+
+
+}
+
+#redes-sociais{
+    color:white;
+    font-size: 30px;
+    padding-left: 100px;
+   
+    
+}
+
+
