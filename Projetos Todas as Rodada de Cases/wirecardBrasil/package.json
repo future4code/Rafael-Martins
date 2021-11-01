@@ -12,7 +12,7 @@
     "api",
     "wirecardbrasil-case"
   ],
-  "author": "micheline barros",
+  "author": "Rafael Soares",
   "license": "ISC",
   "dependencies": {
     "@types/bcryptjs": "^2.4.2",
